@@ -76,3 +76,4 @@ The following goals are meant to provide more of a challenge for individuals who
 
 * Create a Droplet using a different kind of Linux and repeat all of the above (altering your process according to the difference of tools/environment).
 * Figure out how to connect to your Droplet using SFTP or a different file management/upload tool. (Or, if you used a GUI application before, then try it using only the command line.)
+* Use PuTTY to connect to Digital Ocean
