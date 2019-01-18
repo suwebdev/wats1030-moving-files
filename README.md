@@ -4,14 +4,20 @@ An assignment designed to challenge students to move files and clone repositorie
 ## Base Requirements
 The base requirements for this assignment are to complete the following list of tasks and then commit your repository back up to the server. Your completion of these tasks provides evidence of your success. You will create, delete, move and rename files and folders in several ways.
 
-To begin working on this project, you will need to set up a new server:
+To begin working on this project, you will need to set up a new server:  
+
+NOTE:  Windows users should use Git Bash for their command line work
 
 1. Create an account on [Digital Ocean](https://digitalocean.com).
-2. Create a new Droplet with the following configuration:
+2. Upload your local machine's [SSH key to your Digital Ocean account](https://www.digitalocean.com/docs/droplets/how-to/add-ssh-keys/to-account/).
+3. Create a new Droplet with the following configuration:
   * Ubuntu (the latest version)
+  * Choose the $5 server option. You may have to click on an arrow on the left where you see prices to choose the $5 option
+  * You don't need to choose backup or block storage
+  * Choose San Francisco for the location of the Data Center
   * You do not need to select any particular App.
   * Be sure to **add your SSH key** by clicking the "Add SSH Key" link (or selecting your previously added SSH Key) near the bottom of the Droplet creation form.
-3. Connect to your Droplet via SSH. ([Consult this guide for more detailed help with SSH Keys and access.](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets))
+4. Connect to your Droplet via SSH from local machine terminal using `ssh root@<ip address>`. ([Consult this guide for more detailed help with SSH Keys and access.](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets))
 
 Once you have created your Droplet and successfully connected to it, you will need to install and configure Git:
 
